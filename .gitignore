@@ -2,9 +2,8 @@
 
 ### STS ###
 empty
-.apt-generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
+apt-generated
+classpath
+factorypath
+project
+settings
