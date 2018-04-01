@@ -1,11 +1,7 @@
+.classpath
+.factorypath
+.project
+/.settings
+/.mvn
+/.apt-generated
 /target
-
-### STS ###
-.empty
-#.apt-generated
-#.classpath
-#.factorypath
-#.project
-#.settings
-
-.*
