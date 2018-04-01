@@ -2,8 +2,10 @@
 
 ### STS ###
 .empty
-apt-generated
-classpath
-factorypath
-project
-settings
+#.apt-generated
+#.classpath
+#.factorypath
+#.project
+#.settings
+
+.*
