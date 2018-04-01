@@ -49,6 +49,7 @@ public class LancamentoRepositoryImpl implements LancamentoRepositoryQuery {
 		CriteriaQuery<ResumoLancamento> criteria = builder.createQuery(ResumoLancamento.class);
 		Root<Lancamento> root = criteria.from(Lancamento.class);
 		
+		//Construindo o objeto resumo lançamento
 		criteria.select(builder.construct(ResumoLancamento.class
 				, root.get(Lancamento_.codigo), root.get(Lancamento_.descricao)
 				, root.get(Lancamento_.dataVencimento), root.get(Lancamento_.dataPagamento)
